@@ -11,7 +11,7 @@ if (darkMode === 'enabled') {
 
 darkModeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
-    
+
     if (body.classList.contains('dark-mode')) {
         localStorage.setItem('darkMode', 'enabled');
         darkModeToggle.textContent = '☀️ Light Mode';
